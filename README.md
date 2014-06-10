@@ -11,6 +11,8 @@ npm install -g generator-keystone-starter
 yo keystone-starter
 ```
 
+This project borrows from Jed Watson's [generator-keystone](https://github.com/JedWatson/generator-keystone), with things I don't need torn out.
+
 The MIT License (MIT)
 ---------------------
 
