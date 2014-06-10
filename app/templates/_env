@@ -1,0 +1,3 @@
+MONGO_URL=mongodb://localhost:27017
+COOKIE_SECRET=its_a_secret_to_everyone
+

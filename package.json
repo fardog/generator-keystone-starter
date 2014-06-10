@@ -1,0 +1,38 @@
+{
+  "name": "generator-keystone-starter",
+  "version": "0.0.1",
+  "description": "A starter template for KeystoneJS with Browserify and Live Reloading.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fardog/generator-keystone-starter.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "keystonejs",
+    "keystone",
+    "browserify",
+    "tiny-lr",
+    "livereload"
+  ],
+  "author": "Nathan Wittstock <nate@milkandtang.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fardog/generator-keystone-starter/issues"
+  },
+  "homepage": "https://github.com/fardog/generator-keystone-starter",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "keystone-utils": "^0.1.10",
+    "lodash": "^2.4.1",
+    "yeoman-generator": "^0.17.0"
+  },
+  "devDependencies": {
+    "bower": "^1.3.5",
+    "grunt-cli": "^0.1.13",
+    "yo": "^1.1.2"
+  }
+}
