@@ -1,6 +1,6 @@
 {
   "name": "generator-keystone-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A starter template for KeystoneJS with Browserify and Live Reloading.",
   "main": "app/index.js",
   "scripts": {
