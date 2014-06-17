@@ -30,6 +30,10 @@ gulp.task('keystone', function() {
 	});
 
 	keystoneProcess.unref();
+
+	setTimeout(function() {
+		livereload.changed(0);
+	}, 3000);
 });
 
 gulp.task('lint', function(){
@@ -53,7 +57,7 @@ gulp.task('sendLivereloadChanged', function () {
 // development watcher
 gulp.task('watch', ['keystone'], function () {
 	livereload.listen();
-	gulp.watch(paths.src, ['lint', 'keystone', 'sendLivereloadChanged']);
+	gulp.watch(paths.src, ['lint', 'keystone']);
 	gulp.watch(paths.js, ['lint', 'browserify', 'sendLivereloadChanged']);
 });
 

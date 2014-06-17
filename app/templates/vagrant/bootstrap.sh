@@ -20,7 +20,9 @@ sudo cp /vagrant/mongod.conf /etc/mongod.conf
 chown root:root /etc/mongod.conf /etc/redis/redis.conf
 chmod 644 /etc/mongod.conf /etc/redis/redis.conf
 
+sudo restart mongod
+sudo /etc/init.d/redis-server restart
+
 # Update Everything
 sudo apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
-sudo reboot
